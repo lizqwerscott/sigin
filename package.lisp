@@ -2,5 +2,9 @@
 
 (defpackage :sigin
   (:use :common-lisp :uiop)
-  (:export :sigin))
+  (:export :sigin-f
+           :add-data
+           :load-data
+           :save-data
+           :refresh-now-data))
 
