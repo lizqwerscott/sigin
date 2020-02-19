@@ -1,6 +1,6 @@
 (in-package :sigin)
 
-(defparameter *save-data-file* #P"~/save-data.txt")
+(defparameter *save-data-file* #P"~/save-data.txt" )
 (defparameter *data* (make-hash-table))
 (defparameter *now-data* nil)
 
